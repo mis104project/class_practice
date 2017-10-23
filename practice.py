@@ -5,11 +5,11 @@ def aaa(min, max):
 
     for x in number:
 
-        if x % 2 == 1:
+        if x % 5 == 1:
             print("odd")
             odd += 1
 
-        elif x % 2 == 0:
+        elif x % 5 == 0:
             print("even")
             even += 1
 
